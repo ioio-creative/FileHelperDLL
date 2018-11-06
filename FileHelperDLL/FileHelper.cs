@@ -167,11 +167,6 @@ namespace FileHelperDLL
             }
         }
 
-        public static bool IsAbsolutePath(string path)
-        {
-            return path.IndexOf("c:", StringComparison.OrdinalIgnoreCase) > -1;
-        }
-
         public static bool FileExistsWithoutSpecifyingExtension(string path)
         {
             // https://stackoverflow.com/questions/22641503/check-if-file-exists-not-knowing-the-extension
